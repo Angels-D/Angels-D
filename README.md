@@ -11,4 +11,4 @@
 [![Angles-D's github stats](https://github-readme-stats.vercel.app/api?username=Angels-D)](https://github.com/anuraghazra/github-readme-stats)
 
 [![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=Angels-D&layout=compact)](https://github.com/anuraghazra/github-readme-stats)
-[![Angels-D's wakatime stats](https://github-readme-stats.vercel.app/api/wakatime?username=D1005562341&layout=compac)](https://github.com/anuraghazra/github-readme-stats)
+[![Angels-D's wakatime stats](https://github-readme-stats.vercel.app/api/wakatime?username=D1005562341&layout=compact)](https://github.com/anuraghazra/github-readme-stats)
