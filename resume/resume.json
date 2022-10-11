@@ -97,24 +97,10 @@
             "project_content": "暂无"
         }
       ],
-      "workList": [
-        // {
-        //   "work_name": "LUT服务器",
-        //   "visit_link": "https://cn-zz-bgp-1.natfrp.cloud:55243/",
-        // },
-        // {
-        //   "work_name": "校友管理系统",
-        //   "visit_link": "https://github.com/Angels-D/Alumni-Management-System",
-        // },
-        // {
-        //   "work_name": "学生选课系统",
-        //   "visit_link": "https://github.com/Angels-D/Student-selection-system",
-        // }
-      ],
+      "workList": [],
       "aboutme": {
         "aboutme_desc": "性别：男性　　出生：1999年8月\n民族：汉族　　籍贯：浙江省湖州市\n政治面貌：中共党员\n理想：为天地立心　 为生民请命\n　　　为往圣继绝学 为万世开太平\n头衔：速成大师、黑科技选手、肝帝\n爱好：游戏、动漫、哲学"
       },
-      // 国际化
       "locales": {
         "en_US": {
             "profile": {
