@@ -8,194 +8,214 @@
         "workList": "个人作品",
         "aboutme": "自我介绍"
     },
-    "avatar": { "hidden": false },
+    "avatar": {
+        "src": "https://cdn.jsdelivr.net/gh/Angels-D/Angels-D.github.io/medias/avatar.jpg",
+        "hidden": false
+    },
     "profile": {
-        "name": "丁垚垚 (Angels-D)",
-        "qq": "1005562341",
+        "name": "丁垚垚",
+        "qq": "10055622341",
         "email": "d1005562341@126.com",
         "mobile": "13738236957",
         "github": "https://github.com/Angels-D",
         "zhihu": "",
         "blog": "https://angels-d.github.io",
-        "workExpYear": "",
+        "workExpYear": "7个月",
         "workPlace": "甘肃兰州",
         "positionTitle": ""
-      },
-      "educationList": [
+    },
+    "educationList": [
         {
-            "edu_time": ["2019.09.01", "2023.06.30"],
+            "edu_time": [
+                "2019.09.01",
+                "2023.06.30"
+            ],
             "school": "兰州理工大学",
             "major": "计算机科学与技术",
             "academic_degree": "本科"
         }
-      ],
-      "awardList": [
-        { "award_info": "蓝桥杯 国家级 二等奖", "award_time": "2021" },
+    ],
+    "awardList": [
         {
-          "award_info": "中国大学生计算机设计大赛 西北赛区 团队一等奖",
-          "award_time": "2021,2022"
+            "award_info": "蓝桥杯 国家级 二等奖",
+            "award_time": "2021"
         },
-        { "award_info": "天梯赛 国家级 团队三等奖", "award_time": "2021" },
-        { "award_info": "RoboCom 国家级 三等奖", "award_time": "2022" },
-        { "award_info": "ACM、CCSP、CUMCM 等竞赛经验" }
-      ],
-      "workExpList": [
         {
-            "work_time": ["2019.9", "2020.5"],
+            "award_info": "中国大学生计算机设计大赛 西北赛区 团队一等奖",
+            "award_time": "2021,2022"
+        },
+        {
+            "award_info": "天梯赛 国家级 团队三等奖",
+            "award_time": "2021"
+        },
+        {
+            "award_info": "RoboCom 国家级 三等奖",
+            "award_time": "2022"
+        },
+        {
+            "award_info": "ACM、CCSP、CUMCM 等竞赛经验"
+        },
+        {
+            "award_time": "2023.09",
+            "award_info": "《信创规划管理师》证书"
+        }
+    ],
+    "workExpList": [
+        {
+            "work_time": [
+                "2019.9",
+                "2020.5"
+            ],
             "company_name": "兰州理工大学",
             "department_name": "学生会",
             "work_desc": "职位：心理辅导站成员\n组织开展心理主体活动，协同学生会组织工作"
         },
         {
-            "work_time": ["2020.1", "2020.6"],
+            "work_time": [
+                "2020.01",
+                "2020.06"
+            ],
             "company_name": "兰州理工大学",
             "department_name": "班级",
-            "work_desc": "职位：学习委员\n在2020年疫情期间组织进行线上学习工作并处理相关文件，深入了解并学习网上办公、协同工作技巧"
+            "work_desc": "职位：学习委员\n在2020年疫情期间组织进行线上学习工作并处理相关文件，深入了解并学习网上办公、协同工作技巧\n期间学会熟练使用Office办公套件，基本掌握PS、Pr、AE等媒体工具",
+            "dataIndex": 1
         },
         {
             "company_name": "兰州理工大学",
             "department_name": "鲲鹏创新协会(社团)",
-            "work_time": ["2021.11", null],
+            "work_time": [
+                "2021.11",
+                null
+            ],
             "work_desc": "职位：社长\n本社团与鲲鹏创新中心对接，旨在宣传鲲鹏相关技术、产品，树立国产软硬件生态意识，在校内培养一批具有鲲鹏技术能力的高校青年。"
+        },
+        {
+            "work_time": [
+                "2023.06",
+                "2024.01"
+            ],
+            "company_name": "华为技术有限公司",
+            "department_name": "甘肃省鲲鹏生态创新中心",
+            "work_desc": "职位：现场支撑工程师（FAE）\n1. 人才培养：组织和协作对高校或企业进行鲲鹏、昇腾、鸿蒙等国产化技术宣讲培训\n2. 应用认证：对行业应用的鲲鹏、昇腾生态迁移适配进行技术支撑和认证评审",
+            "dataIndex": 3
         }
-      ],
-      "skillList": [
+    ],
+    "skillList": [
         {
             "skill_name": "C++ / Qt / 面向对象",
-            "skill_desc": "熟悉和使用类、模板、指针等概念\nQt 图形界面实践经验",
-            "skill_level": 80
+            "skill_desc": "熟悉和使用类、模板、指针等概念",
+            "skill_level": 70,
+            "dataIndex": 0
         },
         {
             "skill_name": "嵌入式 / 计算机组成",
             "skill_desc": "了解8086，熟悉Verilog和冯·诺依曼模型机\n熟悉应用：Quartus、AltiumDesigner等",
-            "skill_level": 80
+            "skill_level": 80,
+            "dataIndex": 1
         },
         {
-            "skill_name": "OpenEuler / 华为云",
-            "skill_desc": "熟悉Openeuler、泰山服务器的使用\n体验和使用过ECS、ModelArts等",
-            "skill_level": 70
+            "skill_name": "鲲鹏&昇腾信创技术",
+            "skill_desc": "熟悉鲲鹏和昇腾体系下应用或模型迁移、开发、调优",
+            "skill_level": 70,
+            "dataIndex": 2
         },
         {
-            "skill_name": "OpenGauss 数据库",
-            "skill_desc": "熟悉基本功能，JDBC应用",
-            "skill_level": 60
+            "skill_name": "Linux / Docker / Git 工具链",
+            "skill_desc": "熟悉和使用基本开发工具",
+            "skill_level": 80,
+            "dataIndex": 3
+        },
+        {
+            "skill_name": "算法 / 并行计算 / 人工智能",
+            "skill_level": 50,
+            "skill_desc": "熟悉常用数据结构和基本算法\n了解并行计算架构和多线程开发\n熟悉AI开发框架和常规模型部署"
+        },
+        {
+            "skill_name": "系统运维 / 逆向工程",
+            "skill_level": 50,
+            "skill_desc": "掌握计算机组网、安全维护、远程管理\n了解C#、JAVA逆向和计算机渗透方法",
+            "dataIndex": 5
         }
-      ],
-      "projectList": [
+    ],
+    "projectList": [
         {
             "project_name": "鲲鹏众智 openEuler社区软件包加固 第三期",
-            "project_role": "技术指导 项目成员",
-            "project_time": ["2022.07", "2022.11"],
-            "project_desc": "本项目针对openEuler社区上继承的开源软件进行测试加固，针对15款软件，进行测试用例设计、编写并执行，最终贡献至社区",
-            "project_content": "\n1. 组织项目培训和项目技术指导\n2. 负责4个软件包测试、2个软件包升级\n3. 项目进度控制和项目工作报告。\n在本项目中主要了解了社区运作结构，掌握了Shell脚本开发，进一步熟悉了openEuler"
+            "project_role": "项目负责人",
+            "project_time": [
+                "2022.07",
+                "2022.11"
+            ],
+            "project_desc": "本项目针对openEuler社区上继承的开源软件进行测试加固，针对15款Linux基础软件，进行测试用例设计、编写并执行，最终贡献至社区",
+            "project_content": "\n1. 组织项目培训和项目技术指导\n2. 负责4个软件包测试、2个软件包升级\n3. 项目进度控制和项目工作报告。\n收获：熟悉开源与操作系统国产化生态，掌握Linux与开源开发工具链，获得项目管理经验",
+            "dataIndex": 0
         },
         {
             "project_name": "昇腾众智 MindStudio 迁移工具泛化",
             "project_role": "项目成员",
-            "project_time": ["2022.10", null],
-            "project_desc": "使用迁移工具将任务清单中的模型迁移至指定框架和平台，对工具未支持API进行适配，使迁移后模型能跑通并收敛",
-            "project_content": "暂无"
+            "project_time": [
+                "2022.10",
+                "2024.01"
+            ],
+            "project_desc": "使用迁移工具将任务清单中的模型（推荐系统DeepCTR）迁移至指定框架和平台，对工具未支持API进行适配，使迁移后模型能跑通并收敛",
+            "project_content": "\n1. 昇腾迁移环境搭建和维护\n2. 2个子模型的迁移调试\n3. 项目打包、初审、提交",
+            "dataIndex": 1
+        },
+        {
+            "project_time": [
+                "2023.06",
+                "2023.08"
+            ],
+            "project_name": "鲲鹏人才培养",
+            "project_role": "项目成员",
+            "project_desc": "暑期校园行：给学生讲授基于云的鲲鹏、昇腾生态知识，并通过课程的理论考核、实践考核。\n鲲鹏创新大赛：组织本地企业和高校参与竞赛并进行指导和评审",
+            "project_content": "\n1. 2场为期一周的人工智能课程和操作系统课程讲师，约200名学生通过率80%以上\n2. 制定一学期的2门选修课教学大纲\n3. 比赛现场支撑，带领高校2支队伍进入鲲鹏创新全国赛",
+            "dataIndex": 2
+        },
+        {
+            "project_time": [
+                "2023.09",
+                "2023.11"
+            ],
+            "project_name": "昇腾应用迁移适配",
+            "project_role": "项目成员",
+            "project_desc": "OCR迁移适配：原PaddleOCR推理业务迁移至昇腾平台\n车牌检测适配：原Yolov7车牌检测迁移至昇腾平台\n兰州大学昇腾课题组项目支撑",
+            "project_content": "\n1. 制定并评估多种迁移方案，完成模型迁移和推理运行，协调完成模型调优和业务接口适配。\n2. 独立完成车牌检测适配，并领先于原环境\n3. 多次解决兰州大学昇腾适配问题",
+            "dataIndex": 3
         }
-      ],
-      "workList": [],
-      "aboutme": {
-        "aboutme_desc": "性别：男性　　出生：1999年8月\n民族：汉族　　籍贯：浙江省湖州市\n政治面貌：中共党员\n理想：为天地立心　 为生民请命\n　　　为往圣继绝学 为万世开太平\n头衔：速成大师、黑科技选手、肝帝\n爱好：游戏、动漫、哲学"
-      },
-      "locales": {
-        "en_US": {
-            "profile": {
-                "name": "Ding Yaoyao (Angels-D)",
-                "qq": "1005562341",
-                "email": "d1005562341@126.com",
-                "mobile": "13738236957",
-                "github": "https://github.com/Angels-D",
-                "zhihu": "",
-                "blog": "https://angels-d.github.io",
-                "workExpYear": "",
-                "workPlace": "Lanzhou, Gansu"
-            },
-            "skillList": [
-            {
-                "skill_name": "C++ / Qt / OOP",
-                "skill_desc": "Familiar with classes, templates, pointers, etc\nQt GUI Practice Experience",
-                "skill_level": 80
-            },
-            {
-                "skill_name": "Embedded / Computer Working Principle",
-                "skill_desc": "Learn about 8086, Verilog, Making of Von Neumann Model Machine\nAbility to use: Quartus, AltiumDesigner, etc",
-                "skill_level": 80
-            },
-            {
-                "skill_name": "OpenEuler / Hua Weiyun",
-                "skill_desc": "be familiar with Openeuler, Taishan Server\nExperience with: ECS, ModelArts, etc",
-                "skill_level": 70
-            },
-            {
-                "skill_name": "OpenGauss Database",
-                "skill_desc": "Familiar with basic functions, JDBC application",
-                "skill_level": 60
-            }
-          ],
-          "avatar": { "hidden": false },
-          "educationList": [
-            {
-                "edu_time": ["2014.09.01", "2018.06.30"],
-                "school": "Lanzhou University of Technology",
-                "major": "Computer Science and Technology",
-                "academic_degree": "undergraduate"
-            }
-          ],
-          "awardList": [
-            { "award_info": "Lanqiao_Trophy National Second_Prize", "award_time": "2021" },
-            {
-                "award_info":"China_Undergraduate_Computer_Design_Competition Northwest_Division Team_First_Prize",
-                "award_time": "2021,2022"
-            },
-            { "award_info": "GPLT National Team_Third_Prize", "award_time": "2021" },
-            { "award_info": "RoboCom National Third_Prize", "award_time": "2022" },
-            { "award_info": "ACM, CCSP, CUMCM, etc Competition experience" }
-          ],
-          "workExpList": [
-            {
-                "work_time": ["2019.9", "2020.5"],
-                "company_name": "Lanzhou University of Technology",
-                "department_name": "Student union",
-                "work_desc": "Position: Member of psychological counseling station\nOrganize and carry out psychological activities and coordinate the work of the Student Union"
-            },
-            {
-                "work_time": ["2020.1", "2020.6"],
-                "company_name": "Lanzhou University of Technology",
-                "department_name": "Class",
-                "work_desc": "Position: Study Committee Member\nOrganize online learning and process relevant documents during the epidemic in 2020, and deeply understand and learn the skills of online office and collaborative work"
-            },
-            {
-                "company_name": "Lanzhou University of Technology",
-                "department_name": "Kunpeng Innovation Association (Association)",
-                "work_time": ["2021.11", null],
-                "work_desc": "Position: President\nThe association is connected with Kunpeng Innovation Center, aiming to publicize Kunpeng related technologies and products, establish the ecological awareness of domestic software and hardware, and cultivate a group of young college students with Kunpeng's technical ability."
-            }
-          ],
-          "projectList": [
-            {
-                "project_name": "Kunpeng Wisdom - openEuler Community software package reinforcement - Phase III",
-                "project_role": "Technical guidance, Project members",
-              "project_time": ["2022.07", "2022.11"],
-              "project_desc": "This project tests and reinforces the open source software inherited from the openEuler community, designs, writes and executes test cases for 15 types of software, and ultimately contributes to the community",
-              "project_content": "\n1. Organize project training and project technical guidance\n2. Responsible for testing 4 software packages and upgrading 2 software packages\n3. Project progress control and project work report.\nIn this project, I mainly learned about the community operation structure, mastered shell script development, and became more familiar with openEuler"
-            },
-            {
-                "project_name": "Ascend Wisdom - MindStudio Migration tool generalization",
-                "project_role": "Project members",
-                "project_time": ["2022.10", null],
-                "project_desc": "Use the migration tool to migrate the model in the task list to the specified framework and platform, and adapt the API that the tool does not support, so that the model can run through and converge after migration",
-                "project_content": "None"
-            }
-          ],
-          "workList": [],
-          "aboutme": {
-            "aboutme_desc": "Gender: male Birth: August 1999\nNationality: Han Nationality Native place: Huzhou City, Zhejiang Province\nPolitical status: CPC member\nIdeal: to stand for heaven and earth and ask for life\nFor the sake of going to the holy place and inheriting knowledge, to open peace for all generations\nTitle: Quick Master, Black Technology Player, Gan Di\nHobbies: games, animation, philosophy"
-          }
+    ],
+    "workList": [
+        {
+            "work_name": "基于Jupyterhub的线上实验教学平台",
+            "work_desc": "院级优秀毕业设计，基于云原生技术",
+            "visit_link": "https://github.com/Angels-D/Jupyterhub-K8s-Lut",
+            "dataIndex": 0
+        },
+        {
+            "work_name": "游戏自动化辅助脚本",
+            "work_desc": "基于Autohotkey的多线程脚本",
+            "visit_link": "https://github.com/Angels-D/TroveAuto",
+            "dataIndex": 1
+        },
+        {
+            "work_name": "hexo-theme-matery-s",
+            "work_desc": "hexo前端博客主题魔改",
+            "visit_link": "https://github.com/Angels-D/hexo-theme-matery-s"
+        },
+        {
+            "work_name": "AnglesD的小站",
+            "work_desc": "个人服务器运维平台，集成云盘、直播平台、游戏私服、云桌面等服务",
+            "visit_link": "https://anglesd.org.cn/",
+            "dataIndex": 3
+        },
+        {
+            "work_name": "网页云桌面",
+            "work_desc": "基于openEuler、VNC的云桌面",
+            "visit_link": "https://hub.docker.com/repository/docker/d1005562341/novnc-desktop/general",
+            "dataIndex": 4
         }
+    ],
+    "aboutme": {
+        "aboutme_desc": "\n    性别：男性　　出生：1999年8月\n    民族：汉族　　籍贯：浙江省湖州市\n    政治面貌：中共党员\n    性格：外冷内热\n    优点：善用工具，思维敏捷，热衷实践、快速学习\n    爱好：人世沧桑、浩瀚星空、诗与远方\n   "
     },
     "theme": {
         "color": "#2f5785",
